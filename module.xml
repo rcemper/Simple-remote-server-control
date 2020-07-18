@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+tz<?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="terminal-multiline.ZPM">
+  <Document name="remote-server-control.ZPM">
     <Module>
-      <Name>terminal-multiline</Name>
-      <Version>1.0.1</Version>
-      <Description>Multi-Line in Terminal Command</Description>
-      <Keywords>Terminal, COS</Keywords>
+      <Name>r</Name>
+      <Version>1.0.0</Version>
+      <Description>Simple remote server control</Description>
+      <Keywords>TCP, Sytesm Mgmt</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="%zml.MAC"/>
+       <Resource Name="Z.PKG"/>
     </Module>
   </Document>
 </Export>
