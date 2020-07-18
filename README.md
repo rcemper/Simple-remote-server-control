@@ -15,7 +15,8 @@ It consists of 3 sections:
 
 - the data section to hold server access data
 - the server section to run unattended at the server you want to monitor
-- the client section that is just for demonstration and should be integrated by your code to your environment.
+- the client section that is just for demonstration  
+  and should be integrated by your code to your environment.
  
 Operation is simple:
  
