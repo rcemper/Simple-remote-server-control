@@ -1,5 +1,5 @@
 /// Handle remote system managent requests
-Class Z.remote Extends %Persistent [ Final ]
+Class Zrcc.remote Extends %Persistent [ Final ]
 {
 
 Parameter SLEEP As %Integer = 5;
@@ -65,8 +65,8 @@ reply
 /// client connects to remote server to get some info
 ClassMethod Client() As %Status
 {
- #dim srv as %Z.remote = ""
-    set sql="SELECT * from %Z.remote"
+ #dim srv as Zrcc.remote = ""
+    set sql="SELECT * from Zrcc.remote"
     set stmt=##class(%SQL.Statement).%New()
     set sc=stmt.%Prepare(sql)
        ,res=stmt.%Execute()
@@ -74,7 +74,7 @@ ClassMethod Client() As %Status
     do {
         read !,"select ServerID:",sid,!
         if 'sid return '$$$OK
-        set srv=##class(%Z.remote).%OpenId(sid)
+        set srv=##class(Zrcc.remote).%OpenId(sid)
     } while '$ISOBJECT(srv)
     set tcp="|TCP|"_srv.Listener
     set $ZE="READ"
