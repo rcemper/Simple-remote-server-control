@@ -3,7 +3,7 @@
   <Document name="remote-server-control.ZPM">
     <Module>
       <Name>remote-server-control</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Description>Simple remote server control</Description>
       <Keywords>TCP, System Mgmt</Keywords>
       <Packaging>module</Packaging>
