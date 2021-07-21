@@ -102,5 +102,27 @@ reset
    use 0 write reply,! 
    goto reset
 }
+
+Storage Default
+{
+<Data name="remoteDefaultData">
+<Value name="1">
+<Value>Server</Value>
+</Value>
+<Value name="2">
+<Value>IPaddr</Value>
+</Value>
+<Value name="3">
+<Value>Listener</Value>
+</Value>
+</Data>
+<DataLocation>^Zrcc.remoteD</DataLocation>
+<DefaultData>remoteDefaultData</DefaultData>
+<IdLocation>^Zrcc.remoteD</IdLocation>
+<IndexLocation>^Zrcc.remoteI</IndexLocation>
+<StreamLocation>^Zrcc.remoteS</StreamLocation>
+<Type>%Storage.Persistent</Type>
+}
+
 }
 
