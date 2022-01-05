@@ -1,9 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.1 and on Caché 2018.1.3 
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
-
 This example is extracted from a long-running installation.  
 The purpose is to have a simple monitoring of several servers at a rather primitive level.  
 Just slightly more intelligent than a raw PING. But still easy to integrate.  
