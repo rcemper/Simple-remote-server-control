@@ -27,6 +27,4 @@ and to adapt the client section to your needs and into your environment.
 [Demo Server WebTerminal](https://remote-server-control.demo.community.intersystems.com/terminal/)    
         
 **Code Quality**   
-<img width="85%" src="
-https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
-">
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1763/screenshots/of7qlrwqyqb4aovjn7m1foolmi.jpg">
