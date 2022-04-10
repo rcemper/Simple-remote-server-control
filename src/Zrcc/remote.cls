@@ -58,7 +58,7 @@ reply
 2 ;PRCC
     set pid=0
     &SQL(Select count(pid) into :pid from   %SYS.ProcessQuery)
-    set reply="actual process count: "_pid
+    set reply="actual process count: "_pid_$s(SQLCODE:" SQLCODE="_SQLCODE,1:"")
     quit
 }
 
@@ -70,7 +70,7 @@ ClassMethod Client() As %Status
     set stmt=##class(%SQL.Statement).%New()
     set sc=stmt.%Prepare(sql)
        ,res=stmt.%Execute()
-    do res.%Display()
+    do:sc res.%Display()
     do {
         read !,"select ServerID:",sid,!
         if 'sid return '$$$OK
