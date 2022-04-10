@@ -22,3 +22,11 @@ The whole example is kept very simple and it is your task to add what you requir
 and to adapt the client section to your needs and into your environment.
 
 [Article in DC](https://community.intersystems.com/post/simple-remote-server-control)
+
+[Demo Server SMP](https://remote-server-control.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://remote-server-control.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
