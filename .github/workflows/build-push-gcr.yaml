@@ -10,7 +10,8 @@ env:
   # Change this section according to your needs
   IMAGE_NAME:   remote-server-control
   SERVICE:      remote-server-control
-  DOMAIN_NAME:  remote-server-control.demo.community.intersystems.com
+  DOMAIN_NAME:  remote-server-control.contest.community.intersystems.com
+# try contest
 # Leave this section untouched
   PROJECT_ID:   iris-community-demos
   CLUSTER_NAME: demo
