@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b> 
+
 This example is extracted from a long-running installation.  
 The purpose is to have a simple monitoring of several servers at a rather primitive level.  
 Just slightly more intelligent than a raw PING. But still easy to integrate.  
